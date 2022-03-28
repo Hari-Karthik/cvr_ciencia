@@ -12,5 +12,26 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: aqua;
+  color: rgb(1, 2, 2);
+  text-shadow: 2px 2px 5px rgb(194, 180, 180);
+}
+#about-section {
+  padding: 50px;
+  background-image: url("../assets/dark-blue-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.about-card {
+  height: 300px;
+  width: 75%;
+  padding: 50px;
+  border: 1px solid grey;
+  box-shadow: 10px 10px 5px rgb(180, 165, 165);
+  margin: 20px;
+  background-color: rgba(255, 0, 0, 0.493);
+}
+#ciencia-logo {
+  height: 300px;
 }
