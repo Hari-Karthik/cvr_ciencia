@@ -49,3 +49,6 @@
 .navbar {
   height: 100px;
 }
+#dropdownMenuLink {
+  border: none;
+}
