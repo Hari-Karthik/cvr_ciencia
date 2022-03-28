@@ -5,3 +5,12 @@
   height: 100px;
   width: 120px;
 }
+
+#page-intro {
+  background-image: url("../assets/djnight-blur.jpg");
+  height: 870px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aqua;
+}
