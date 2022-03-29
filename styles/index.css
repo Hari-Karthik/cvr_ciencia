@@ -79,15 +79,15 @@
 }
 
 .conve-img {
-  height: 350px;
+  height: 300px;
 }
 
 .conve-card-main#sc {
-  height: 450px;
+  height: 400px;
   width: 600px;
 }
 .conve-card {
-  height: 1200px;
+  height: 1000px;
   width: 75%;
   padding: 50px;
   border: 1px solid grey;
@@ -99,9 +99,16 @@
 .conve-card-main {
   border: 1px solid rgb(165, 79, 199);
   box-shadow: 10px 10px 5px rgb(93, 20, 81);
-  height: 420px;
+  height: 370px;
   width: 300px;
   margin: 10px;
+  padding: 10px;
+}
+
+#contact-us {
+  background-color: rgb(71, 16, 6);
+  color: white;
+  font-size: 24px;
 }
 /* 
 AsDe123d */
