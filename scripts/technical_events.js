@@ -18,7 +18,7 @@ let ele = document.getElementById("row");
 for (let i = 0; i < 40; i++) {
   ele.innerHTML +=
     '<div class="event m-2 col-2">' +
-    '<div class="card shadow">' +
+    '<div class="card bg-primary shadow">' +
     '<img class="card-img-top" src=' +
     te_details[i % 2].img +
     ' alt="image" />' +
