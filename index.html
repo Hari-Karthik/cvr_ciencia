@@ -16,16 +16,27 @@
   <body>
     <div class="container-fluid">
       <nav
-        class="navbar navbar-dark navbar-expand bg-black sticky-top d-flex justify-content-between"
+        class="navbar navbar-dark-sm navbar-expand bg-black sticky-top d-flex justify-content-between"
       >
         <img id="cvr-logo" src="assets/cvr.jpeg" />
         <ul class="nav nav-navbar">
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Conveners</a>
-          </li>
+          <div class="dropdown">
+            <button
+              class="btn btn-primary dropdown-toggle"
+              type="button"
+              data-toggle="dropdown"
+            >
+              Dropdown Example <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+            </ul>
+          </div>
           <li class="nav-item">
             <a class="nav-link" href="#">Gallery</a>
           </li>
