@@ -27,7 +27,7 @@
   color: white;
 }
 .about-card {
-  height: 450px;
+  height: 580px;
   width: 75%;
   padding: 50px;
   border: 1px solid grey;
@@ -52,3 +52,56 @@
 #dropdownMenuLink {
   border: none;
 }
+
+.fac-main-img {
+  height: 300px;
+}
+.fac-main-card {
+  border: 3px solid rgb(34, 28, 28);
+  box-shadow: 10px 10px 5px rgb(27, 23, 23);
+}
+
+@media all and (min-width: 650px) {
+  .fac-main-card:hover {
+    transform: scale(1.25);
+    /* height: 355px;
+    width: auto; */
+  }
+}
+
+#conveners {
+  background-image: url("../assets/bg/purple.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.conve-img {
+  height: 350px;
+}
+
+.conve-card-main#sc {
+  height: 450px;
+  width: 600px;
+}
+.conve-card {
+  height: 1200px;
+  width: 75%;
+  padding: 50px;
+  border: 1px solid grey;
+  box-shadow: 10px 10px 5px rgb(180, 165, 165);
+  margin: 20px;
+  background-color: rgba(16, 117, 163, 0.493);
+  text-align: center;
+}
+.conve-card-main {
+  border: 1px solid rgb(165, 79, 199);
+  box-shadow: 10px 10px 5px rgb(93, 20, 81);
+  height: 420px;
+  width: 300px;
+  margin: 10px;
+}
+/* 
+AsDe123d */
