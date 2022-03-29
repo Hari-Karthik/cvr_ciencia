@@ -70,7 +70,7 @@
 }
 
 #conveners {
-  background-image: url("../assets/bg/purple.jpg");
+  background-image: url("../assets/bg/dark-green.jpg");
 
   background-position: center;
   background-repeat: no-repeat;
@@ -93,12 +93,13 @@
   border: 1px solid grey;
   box-shadow: 10px 10px 5px rgb(180, 165, 165);
   margin: 20px;
-  background-color: rgba(16, 117, 163, 0.493);
+  background-color: rgba(72, 150, 124, 0);
   text-align: center;
 }
 .conve-card-main {
-  border: 1px solid rgb(165, 79, 199);
-  box-shadow: 10px 10px 5px rgb(93, 20, 81);
+  border: 1px solid rgb(8, 20, 15);
+  box-shadow: 0 10px 10px 5px rgb(107, 146, 130),
+    0 10px 10px 5px rgb(107, 146, 130);
   height: 370px;
   width: 300px;
   margin: 10px;
