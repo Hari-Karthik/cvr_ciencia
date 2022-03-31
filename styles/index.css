@@ -79,15 +79,15 @@
 }
 
 .conve-img {
-  height: 300px;
+  height: 200px;
 }
 
 .conve-card-main#sc {
-  height: 400px;
-  width: 600px;
+  height: 300px;
+  width: 400px;
 }
 .conve-card {
-  height: 1000px;
+  height: 900px;
   width: 75%;
   padding: 50px;
   border: 1px solid grey;
@@ -101,7 +101,7 @@
   box-shadow: 0 10px 10px 5px rgb(107, 146, 130),
     0 10px 10px 5px rgb(107, 146, 130);
   height: 370px;
-  width: 300px;
+  width: 270px;
   margin: 10px;
   padding: 10px;
 }
